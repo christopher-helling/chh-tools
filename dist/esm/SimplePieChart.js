@@ -24,7 +24,7 @@ function SimplePieChart(props) {
     const { option, style, } = props;
     const sampleOption = {
         title: {
-            text: 'Version 2',
+            text: 'Version 3',
             subtext: 'Real Data',
             left: 'center',
         },
