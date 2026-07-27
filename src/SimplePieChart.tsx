@@ -41,11 +41,11 @@ export function SimplePieChart(props: IReactEChartsProps) {
 
     const sampleOption = {
         title: {
-            text: 'Version 1',
-            subtext: 'Fake Data',
+            text: 'Version 2',
+            subtext: 'Real Data',
             left: 'center',
         },
-        color: COLOR_SCALES.BLUE_SCALE,
+        color: COLOR_SCALES.VIRIDIS,
         tooltip: {
             trigger: 'item',
         },
