@@ -1,4 +1,3 @@
-import React from 'react';
 import type { CSSProperties } from 'react';
 import type { EChartsOption } from 'echarts';
 export declare const COLOR_SCALES: {
@@ -13,4 +12,4 @@ export interface IReactEChartsProps {
     option?: EChartsOption;
     style?: CSSProperties;
 }
-export declare function SimplePieChart(props: IReactEChartsProps): React.JSX.Element;
+export declare function SimplePieChart(props: IReactEChartsProps): import("react/jsx-runtime").JSX.Element;

@@ -1,28 +1,18 @@
 {
-  // Change this to match your project
   "include": ["src/**/*"],
-  "target": "es5",
-  "module": "commonjs",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "compilerOptions": {
-    "module": "esnext",
-    "lib": ["dom", "esnext"],
+  "exclude": ["dist", "node_modules"],
+  "compilerOptions": {
+    "target": "es2022",
+    "module": "node16",
+    "moduleResolution": "node16",
+    "lib": ["dom", "dom.iterable", "esnext"],
     "importHelpers": true,
     "declaration": true,
     "sourceMap": true,
     "rootDir": "./src",
     "outDir": "./dist/esm",
-    "moduleResolution": "node",
     "jsx": "react-jsx",
     "esModuleInterop": true,
     "skipLibCheck": true
-  },
-  "exclude": [
-    "dist",
-    "node_modules"
-  ]
+  }
 }

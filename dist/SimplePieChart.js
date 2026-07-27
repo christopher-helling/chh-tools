@@ -1,7 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.COLOR_SCALES = void 0;
-exports.SimplePieChart = SimplePieChart;
+exports.SimplePieChart = exports.COLOR_SCALES = void 0;
 const tslib_1 = require("tslib");
 const jsx_runtime_1 = require("react/jsx-runtime");
 const echarts_for_react_1 = tslib_1.__importDefault(require("echarts-for-react"));
@@ -60,4 +59,5 @@ function SimplePieChart(props) {
     };
     return ((0, jsx_runtime_1.jsx)(echarts_for_react_1.default, { notMerge: true, style: !(0, utils_1.isNullOrEmpty)(style) ? style : { width: '100%', height: '480px' }, option: !(0, utils_1.isNullOrEmpty)(option) ? option : sampleOption }));
 }
+exports.SimplePieChart = SimplePieChart;
 //# sourceMappingURL=SimplePieChart.js.map
