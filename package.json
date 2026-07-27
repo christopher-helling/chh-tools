@@ -1,11 +1,16 @@
 {
   "name": "chh-tools",
-  "version": "0.0.1-alpha",
+  "version": "0.0.1",
   "description": "A react library of useful reusable components",
+  "author": "Christopher Helling",
+  "homepage": "https://github.com/christopher-helling/chh-tools#readme",
+  "bugs": {
+    "url": "https://github.com/christopher-helling/chh-tools/issues"
+  },
+  "license": "UNLICENSED",
+  "type": "commonjs",
   "main": "./dist/cjs/index.js",
-  "module": "./dist/esm/index.js",
   "types": "./dist/esm/index.d.ts",
-  "mode": "production",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm run build:esm && npm run build:cjs",
@@ -26,11 +31,6 @@
       "react-app",
       "react-app/jest"
     ]
-  },
-  "author": "Christopher Helling",
-  "license": "UNLICENSED",
-  "bugs": {
-    "url": "https://github.com/christopher-helling/chh-tools/issues"
   },
   "dependencies": {
     "echarts": "^6.1.0",
@@ -55,5 +55,7 @@
     "ts-loader": "^9.4.2",
     "webpack": "^5.0.0",
     "webpack-cli": "^5.0.1"
-  }
+  },
+  "module": "./dist/esm/index.js",
+  "mode": "production"
 }
