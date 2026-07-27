@@ -41,7 +41,7 @@ export function SimplePieChart(props: IReactEChartsProps) {
 
     const sampleOption = {
         title: {
-            text: 'Version 2',
+            text: 'Version 3',
             subtext: 'Real Data',
             left: 'center',
         },
